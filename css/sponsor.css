@@ -1,0 +1,104 @@
+body {
+    min-width: 768px;
+    max-width: 100%;
+    background-color: #F0F0F0;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.spon {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3.5em;
+}
+
+.images {
+    position: relative;
+}
+
+.photo1 .photo2 .photo3 .photo4 .photo5 .photo6 {
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+    left: 12em;
+    padding: 45px;
+}
+
+.img1:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img2 {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+    left: 36em;
+    padding: 45px;
+}
+
+.img2:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img3 {
+    position: relative;
+    cursor: pointer;
+    width: 275px;
+    left: 58em;
+    padding: 30px;
+}
+
+.img3:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img4 {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+    left: 12em;
+    padding: 45px;
+    top: 10em;
+}
+
+.img4:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img5 {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+    left: 36em;
+    padding: 45px;
+    top: 10em;
+}
+
+.img5:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img6 {
+    position: relative;
+    cursor: pointer;
+    width: 275px;
+    left: 58em;
+    padding: 35px;
+    bottom: 4.5em;
+}
+
+.img6:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}

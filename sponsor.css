@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    margin-bottom: 5%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1 {
+    display: flex;
+    flex: 100%;
+}
+
+.img1 {
+    cursor: pointer;
+    max-width: 100%;
+    margin-left: 35%;
+    width: 22vw;
+}
+
+.img1:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img2 {
+    cursor: pointer;
+    max-width: 100%;
+    margin-left: 75%;
+    width: 22vw;
+}
+
+.img2:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img3 {
+    cursor: pointer;
+    max-width: 100%;
+    margin-left: 95%;
+    width: 22vw;
+}
+
+.img3:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img4 {
+    cursor: pointer;
+    max-width: 100%;
+    width: 22vw;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.img4:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img5 {
+    cursor: pointer;
+    max-width: 100%;
+    width: 22vw;
+    margin-left: 75%;
+    margin-top: 15%;
+}
+
+.img5:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.img6 {
+    cursor: pointer;
+    max-width: 100%;
+    width: 22vw;
+    margin-left: 95%;
+    margin-top: 15%;
+}
+
+.img6:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.hr {
+    width: 30%;
+    height: 0;
+    position: relative;
+    bottom: -80px;
+    border-style: groove;
+}
